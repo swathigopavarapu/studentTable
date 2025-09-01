@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+.search-bar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 300px;
+}
+.search-bar button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: #444;
+  color: white;
+}
+.search-bar button:hover {
+  background: #666;
+}
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.button-group button {
+  flex: 1;
+  min-width: 120px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+.button-group button:hover {
+  background: #555;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #444;
+}
+tr:nth-child(even) {
+  background: #222;
+}
+.student-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.student-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
